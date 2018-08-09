@@ -19,7 +19,7 @@ function addWaterMarker(str) {
 
 	var cans = can.getContext('2d');
 
-	cans.rotate(-20 * Math.PI / 180);
+	cans.rotate(-20 * Math.PI / 180 / 3);
 
 	cans.font = "16px Microsoft JhengHei";
 
